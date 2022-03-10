@@ -1,0 +1,422 @@
+/* base */
+
+.image{
+    width: 100%;
+}
+/* header */
+.container-fluid {
+    width: 90%;
+}
+
+.navbar .navbar-brand, .navbar .nav-item .nav-link {
+    color: #0072D3;
+}
+.nav-link{
+    color: #333;
+}
+.navbar .navbar-brand:hover{
+    color: #0072D3;
+}
+.navbar .navbar-toggler{
+    border: none;
+}
+.header__img {
+    width: 100%;
+}
+
+/* about us */
+.about-us{
+    margin: 15% 0;
+}
+.about-us hr, .news hr, .contact hr{
+    background:#0072D3;
+    opacity: 1;
+    width: 50px;
+    height: 4px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+/* our business */
+.our-business {
+    display: flex;
+    margin-top: 100px;
+    color: #FFF;
+    text-align: center;
+}
+.our-business hr{
+    background:#FFF;
+    opacity: 1;
+    width: 50px;
+    height: 4px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.background-image-left {
+    background-image: url(../img/5AVVaKY.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+    background-size: 100%;
+}
+.background-image-right {
+    background-image: url(../img/Communication.jpg);
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size: 200% 100%;
+    position: relative;
+    padding: 10%;
+}
+.our-business-content{
+    width: 100%;
+}
+.our-business-content-left{
+    width: 20%;
+    float: left;
+    margin-top: 50px;
+}
+.our-business-content-right{
+    width: 55%;
+    float: right;
+    margin-top: -100px;
+    margin-right: 5%;
+    clear: both;
+}
+.image-icon1{
+    border-radius: 50%;                                         
+    height: 70px;
+    width: 70px;
+}
+.image-icon2{
+    border-radius: 50%;                                         
+    height: 70px;
+    width: 70px;
+}
+
+.content-1{
+    margin: 0 auto;
+}
+.content-2{
+    margin-top: 250px
+}
+
+/* news */
+.news{
+    margin: 10% 0;
+}
+.news-post-1, .news-post-2, .news-post-3{
+    border: solid 1px #999;
+    margin: 5px 0;
+    /* padding: 0; */
+    float: left;
+}
+.post-content{
+    margin: 10px;
+}
+
+/* contact */
+.contact{
+    margin-top: 10%;
+}
+.contact input {
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+    border: solid 1px gray;
+    outline: none;
+    width: 100%;
+}
+.contact textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    margin-top: 20px;
+}
+.contact button {
+    background: #FFB400;
+    border-radius: 4px;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 25%;
+}
+.contact-right{
+    margin-top: 90px;
+}
+
+/* footer */
+.footer {
+    background: black;
+    margin-top: 20%;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+.footer__box {
+    margin-top: 15%;
+}
+.footer__h5 {
+    color: white;
+}
+.footer__add {
+    color: white;
+    font-size: 80%;
+}
+.footer__ul {
+    margin-left: -30px;
+}
+.footer__ul-li {
+    list-style: none;
+    color: white;
+    font-size: 80%;
+}
+.footer__p {
+    color: white;
+    font-size: 80%;
+}
+.footer__form {
+    border-radius: 5px;
+    border-bottom: white solid 2px;
+}
+.footer__form-input {
+    background-color: black;
+    border: none;
+    outline: none;
+    
+}
+.footer__form-button {
+    border: none;
+    border-radius: 2px;
+    margin-left: 82%;
+}
+.footer__end {
+    color: white;
+    text-align: center;
+}
+/* tablet */
+@media only screen and (min-width: 768px) {
+    .navbar .navbar-brand {
+        color: #FFF;
+    }
+    .navbar .nav-item .nav-link, .nav-link {
+        color: #FFF;
+    }
+    .navbar .nav-item .nav-link:hover, .nav-link:hover{
+        color:orange;
+    }
+    .navbar .navbar-brand:hover{
+        color: #FFF;
+    }
+    .navbar {
+        background: #0072D3;
+    }
+    .nav-link {
+        font-size: small;
+    }
+    .container-fluid{
+        width: 90%;
+    }
+    .navbar .nav-item .nav-link, .nav-link {
+        font-size: 16px;
+    }
+
+    .navbar .nav-item .active {
+        color: orange !important;
+    }
+
+    /* news */
+    .news-post-1, .news-post-2{
+        width: 32%;
+        height: 310px;
+        margin-right: 2%;
+    }
+    .news-post-3{
+        width: 32%;
+    }
+    /* our business */
+    .background-image-left {
+        padding-bottom: 60%;
+        
+    }
+    .background-image-right {
+        width: 100%;
+        background-size: 100% 60%;
+
+    }
+    .our-business hr {
+        background:#FFF;
+        opacity: 1;
+        width: 50px;
+        height: 4px;
+        margin-top: 7px;
+        margin-right: 10px;
+        float: left;
+    }
+    .our-business-content-pall {
+        margin-right: 70%;
+        margin-top: -60px;
+    }
+    .our-business-content-right-h1 {
+        text-align: left;
+        margin-top: 10%;
+    }
+    .our-business-content-right-p1 {
+        text-align: left;
+    }
+    .our-business-content-right-h2 {
+        margin-top: -30%;
+        text-align: left;
+    }
+    .our-business-content-right-p2 {
+        text-align: left;
+    }
+    .image-icon1 {
+        margin-top: -35%;
+    }
+    .image-icon2 {
+        margin-top: -250%;
+    }
+
+    /* contact */
+    .contact input{
+        width: 30%;
+    }
+    .contact .input-email{
+        margin: 0 3%;
+    }
+    .contact button{
+        left: 43%;
+    }
+    /* footer */
+    .footer__form-button {
+        margin-left: 92%;
+    }
+}
+/* laptop */
+@media only screen and (min-width: 1024px) {
+    .container-fluid {
+        width: 70%;
+    }
+    
+    /* navbar menu */
+    .navbar-nav {
+        height: 82px;
+    }
+    .nav-item {
+        padding-top: 30px;
+    }
+    .nav-item:hover {
+        border-bottom: solid 2px;
+        color: orange;
+        height: 90px;
+    }
+    .box-icon {
+        height: 82px;
+    }
+    .link-icon {
+        padding-top: 37px;
+    }
+    .link-icon:hover {
+        border-bottom: solid 2px;
+        color: orange;
+        height: 90px;
+    }
+    
+    /* our business */
+    .background-image-left {
+        background-image: url(../img/5AVVaKY.jpg);
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 100%;
+        background-size: 100%;
+        
+    }
+    .our-business{
+        height: 500px;
+    }
+    .background-image-right {
+        background-image: url(../img/Communication.jpg);
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 100%;
+        background-size: 100%;
+        position: relative;
+    }
+    .our-business-content hr {
+        margin-left: -120px;
+    }
+    .our-business-content-pall {
+        margin-top: -130px;
+        margin-left: -180px;
+    }
+    .our-business-content-left{
+        width: 20%;
+        margin-top: 50px;
+        float: left;
+    }
+    .our-business-content-right{
+        width: 100%;
+        float: right;
+        clear: both;
+    }
+    .image-icon{
+        border-radius: 50%;                                         
+        height: 50px;
+        width: 50px;
+        margin-left: 20%;
+    }
+    .content-1{
+        position: absolute;
+        margin-left: -10%;
+    }
+    .content-2{
+        position: absolute;
+        margin-left: -10%;
+        margin-top: 150px;
+    }
+    /* news */
+    .news-post-1, .news-post-2{
+        height: 470px;
+    }
+    .post-content h4 {
+        font-size: 30px;
+    }
+    /* our business */
+    .background-image-right {
+        padding-bottom: 25%;
+    }
+    .image-icon1 {
+        margin-left: -265%;
+    }
+    .image-icon2 {
+        margin-top: -75%;
+        margin-left: -240%;
+    }
+    .our-business-content-right-h1 {
+        margin-top: 7%;
+    }
+    .our-business-content-right-h2 {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    .our-business-content-right-p2 {
+        margin-left: 1%;
+    }
+
+    /* contact */
+    .contact .input-email{
+        margin: 0 4%;
+    }
+    /* footer */
+    .footer__form-button {
+        margin-left: 82%;
+    }
+}
